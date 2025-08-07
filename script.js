@@ -30,7 +30,7 @@ let items = [
   {
     id: 4,
     image: "./images/bike4.avif",
-    title: "Bike3",
+    title: "Bike4",
     description: "Perfect",
     price: 600,
     category: "bikes",
@@ -66,7 +66,7 @@ let items = [
   {
     id: 8,
     image: "./images/cycle4.webp",
-    title: "Cycle3",
+    title: "Cycle4",
     description: "Perfect",
     price: 500,
     category: "cycles",
@@ -103,11 +103,50 @@ let items = [
   {
     id: 12,
     image: "./images/car4.jpg",
-    title: "Car3",
+    title: "Car4",
     description: "Bad",
     price: 300,
     category: "cars",
     rating: 1,
+  },
+  {
+    id: 13,
+    image: "./images/truck1.jpg",
+    title: "Truck1",
+    description: "Bad",
+    price: 2500,
+    category: "trucks",
+    rating: 2,
+  },
+  
+  {
+    id: 14,
+    image: "./images/truck2.jpg",
+    title: "Truck2",
+    description: "Good",
+    price: 3000,
+    category: "trucks",
+    rating: 3,
+  },
+  
+  {
+    id: 15,
+    image: "./images/truck3.jpg",
+    title: "Truck3",
+    description: "Good",
+    price: 3500,
+    category: "trucks",
+    rating: 4,
+  },
+  
+  {
+    id: 16,
+    image: "./images/truck4.jpg",
+    title: "Truck1",
+    description: "Perfect",
+    price: 4000,
+    category: "trucks",
+    rating: 5,
   },
   
 ];
