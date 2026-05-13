@@ -424,6 +424,21 @@ const setupSorting = () => {
   });
 };
 
+const hamburger = document.querySelector(".hamburger");
+
+const hamburgerboxMenu = () => {
+  const navMenu = document.querySelector("aside");
+  if (navMenu) {
+    navMenu.classList.toggle("open");
+  }
+};
+
+if (hamburger) {
+  hamburger.addEventListener("click", hamburgerboxMenu);
+}
+
+  
+
 setupChipSearch();
 setupChips();
 setupRangeSlider();
